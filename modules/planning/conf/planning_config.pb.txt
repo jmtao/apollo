@@ -13,7 +13,7 @@ topic_config {
   planning_learning_data_topic: "/apollo/planning/learning_data"
 }
 # NO_LEARNING / E2E / HYBRID / RL_TEST / E2E_TEST / HYBRID_TEST
-learning_mode: NO_LEARNING
+learning_mode: E2E_TEST
 standard_planning_config {
   planner_type: PUBLIC_ROAD
   planner_public_road_config {
